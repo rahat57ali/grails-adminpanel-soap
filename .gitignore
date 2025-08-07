@@ -1,0 +1,36 @@
+Thumbs.db
+.DS_Store
+.gradle
+build/
+target/
+out/
+.idea
+*.iml
+*.ipr
+*.iws
+.project
+.settings
+.classpath
+.factorypath
+
+# Gradle
+.gradle/
+
+!gradle-wrapper.jar
+
+# IntelliJ IDEA
+
+.idea/
+
+
+# Logs
+*.log
+
+
+# Environment / Config
+*.env
+*.properties
+
+# Misc
+node_modules/
+
