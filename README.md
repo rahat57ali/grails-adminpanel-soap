@@ -1,23 +1,22 @@
-## Grails 6.2.3 Documentation
+# Grails 6 Project
 
-- [User Guide](https://docs.grails.org/6.2.3/guide/index.html)
-- [API Reference](https://docs.grails.org/6.2.3/api/index.html)
-- [Grails Guides](https://guides.grails.org/index.html)
----
+This is a Grails 6 project using Java 17.
 
-## Feature asset-pipeline-grails documentation
+### Features
+- Admin and User panel
+- Book creation and assignment
+- Email notification system
+- Scheduled job using Quartz
+- SOAP API to get user with purchased books
 
-- [Grails Asset Pipeline Core documentation](https://www.asset-pipeline.com/manual/)
+### Tech Stack
+- Grails 6
+- Java 17
+- H2 Database (in-memory)
+- Quartz Scheduler
+- Mail plugin
+- SOAP (CXF)
 
-## Feature geb documentation
-
-- [Grails Geb Functional Testing for Grails documentation](https://github.com/grails3-plugins/geb#readme)
-
-- [https://www.gebish.org/manual/current/](https://www.gebish.org/manual/current/)
-
-## Feature scaffolding documentation
-
-- [Grails Scaffolding Plugin documentation](https://grails.github.io/scaffolding/latest/groovydoc/)
-
-- [https://grails-fields-plugin.github.io/grails-fields/latest/guide/index.html](https://grails-fields-plugin.github.io/grails-fields/latest/guide/index.html)
-
+### How to Run
+```bash
+./gradlew bootRun
